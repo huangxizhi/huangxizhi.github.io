@@ -1,0 +1,25 @@
+[
+	{
+		"title": "Attention Is All You Need",
+		"summary": "提出Transformer架构，既能做文本理解，也能做文本生成。最早应用在机器反应等文本领域，最近几年也逐渐使用在图像领域。可以说是当前所有深度学习、神经网络的基础性工作。",
+		"paper": [
+			{
+				"title": "Attention Is All You Need",
+				"info": "时间: 2017年; 单位: Google",
+				"url": "https://arxiv.org/pdf/1706.03762.pdf"
+			}
+		],
+		"code": [
+			{
+				"title": "google官方实现: tensorflow版本",
+				"url": "https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/transformer.py"
+			}
+		],
+		"explain": [
+			{
+				"title": "哈佛NLP的pytorch实现与解析",
+				"url": "http://nlp.seas.harvard.edu/2018/04/03/attention.html"
+			}
+		]
+	}
+]
