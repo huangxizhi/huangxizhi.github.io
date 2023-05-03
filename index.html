@@ -122,14 +122,14 @@
             data = e;
 		    for (let i = 0; i < data.length; i++) {
 		        title = data[i].title;
-		        title_html = `<div class="row align-items-center mb-4 mt-lg; margin-top:10px">
+		        title_html = `<div class="row align-items-center mb-4 mt-lg; margin-top:8px">
                     <div class="col-8">
                       <h2 class="heading h4 mb-0">`+title+`</h2>
                       <i class="fa-solid fa-star"></i>
                     </div>
                 </div>`
 
-              summary_html = `<p class="mb-5; margin-bottom:4px">`+data[i].summary+`</p>`
+              summary_html = `<p class="mb-5; margin-bottom:4px;">`+data[i].summary+`</p>`
 
               <!-- paper -->
               paper_head = `<div class="row cols-xs-space cols-sm-space cols-md-space">
@@ -183,7 +183,7 @@
                  detail_html += `<br>`;
               }
               detail_html += explain_head + explain_mid + explain_tail;
-              detail_html += `</div>`;
+              detail_html += `</div><br><br>`;
 
               $("#div_chatgpt").append(title_html);
               $("#div_chatgpt").append(summary_html);

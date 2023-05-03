@@ -21,5 +21,77 @@
 				"url": "http://nlp.seas.harvard.edu/2018/04/03/attention.html"
 			}
 		]
+	},
+	{
+		"title": "GPT1: 通过生成式预训练提高语言理解",
+		"summary": "1.17亿参数，约5GB训练数据",
+		"paper": [
+			{
+				"title": "Improving Language Understanding by Generative Pre-Training",
+				"info": "时间: 2018.6; 单位: OpenAI",
+				"url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf"
+			}
+		],
+		"code": [
+		],
+		"explain": [
+		]
+	},
+	{
+		"title": "GPT2: 语言模型是无监督多任务学习者",
+		"summary": "15亿参数，约40GB训练数据",
+		"paper": [
+			{
+				"title": "Language Models are Unsupervised Multitask Learners",
+				"info": "时间: 2019.2; 单位: OpenAI",
+				"url": "https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf"
+			}
+		],
+		"code": [
+			{
+				"title": "官方实现",
+				"url": "https://github.com/openai/gpt-2"
+			}
+		],
+		"explain": [
+			{
+				"title": "官方博客",
+				"url": "https://openai.com/research/better-language-models"
+			}
+		]
+	},
+	{
+		"title": "GPT3: 语言模型是少样本学习者",
+		"summary": "1750亿参数，约45TB训练数据",
+		"paper": [
+			{
+				"title": "Language Models are Few-Shot Learners",
+				"info": "时间: 2020.5; 单位: OpenAI",
+				"url": "https://arxiv.org/pdf/2005.14165.pdf"
+			}
+		],
+		"code": [
+		],
+		"explain": [
+			{
+				"title": "model-card",
+				"url": "https://github.com/openai/gpt-3/blob/master/model-card.md"
+			}
+		]
+	},
+	{
+		"title": "InstructGPT: 训练语言模型以遵循人类反馈指令",
+		"summary": "chatGPT基于该论文训练而成。主要包括三方部分：1. 使用监督数据微调预训练模型GPT3; 2. 对模型输出的数据进行喜好排序，并训练奖励模型RM; 3. 使用PPO算法对奖励模型进行策略优化，将RM的输出作为一个奖励值，对监督策略进行微调。",
+		"paper": [
+			{
+				"title": "Training language models to follow instructions with human feedback",
+				"info": "时间: 2022; 单位: OpenAI",
+				"url": "https://arxiv.org/pdf/2203.02155.pdf"
+			}
+		],
+		"code": [
+		],
+		"explain": [
+		]
 	}
 ]
